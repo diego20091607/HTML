@@ -1,23 +1,23 @@
 body{
      background: #7802af;
    color :rgb(255, 0, 0);
-   margin: 0px
+   margin:10px;
 }
 
 header {
   border-bottom: solid 2px rgb(0, 0, 0);
-  padding: 20px;
-  font-size: 32px;
-  color:rgb(0, 162, 255)
+  padding: 15px;
+  font-size: 10px;
+  color:rgb(94, 0, 0);
 }
 
 section {
   background: rgb(64, 0, 83);
-  padding-bottom: 80px;
-  padding-top: 80px;
+  padding-bottom:30px;
+  padding-top: 60px;
   display: flex;
   justify-content: center;
 }
 .camada-texto{
-  margin-right: 5%;
+  margin-right: 3%;
 }
