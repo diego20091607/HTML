@@ -1,19 +1,19 @@
 body{
-     background: #0300a7;
-   color :rgb(192, 7, 7);
+     background: #000000;
+   color :rgb(255, 255, 255);
    margin:30px;
    font-family: "Momo Trust Display", sans-serif;
 }
 
 header {
-  border-bottom: solid 2px rgb(0, 0, 0);
+  border-bottom: solid 2px rgb(97, 2, 2);
   padding: 7px;
   font-size: 20px;
-  color:rgb(192, 2, 2);
+  color:rgb(255, 255, 255);
 }
 
-section {
-  background: rgb(0, 119, 255);
+.chamada {
+  background: rgb(0, 5, 70);
   padding-bottom:80px;
   padding-top: 80px;
   display: flex;
@@ -21,4 +21,28 @@ section {
 }
 .chamada-texto {
   margin-right: 3%;
+}
+
+img{
+  height: 250px;
+}
+
+.categoria-videos{
+  display: flex;
+  overflow-y: auto;
+  gap: 10px;
+}
+
+.categoria {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.categoria-videos img{
+  opacity: 0.3;
+}
+
+.categoria-videos img:hover{
+  opacity: 1.0;
+  border: 3px solid rgb(116, 255, 116);
 }
